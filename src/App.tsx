@@ -435,7 +435,7 @@ const Projects = () => {
       title: "Simple Café",
       desc: "A modern and cozy cafe website designed to showcase menus, location, and a warm neighborhood atmosphere.",
       tags: ["HTML", "CSS", "UI/UX", "Web Design"],
-      image: "/cafe-cover.jpg",
+      image: "https://www.beingchristinajane.com/wp-content/uploads/2023/04/kwae-terrace-1-1152x1536.jpg",
       link: "https://ethanmills2.github.io/cafe-site/",
       github: "https://github.com/Ethanmills2/cafe-site"
     }
