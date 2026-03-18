@@ -27,6 +27,7 @@ import {
   Sun
 } from 'lucide-react';
 import { cn } from './lib/utils';
+import profile from "./assets/profile.jpg";
 
 // --- Components ---
 
@@ -258,7 +259,7 @@ const Hero = () => {
             <div className="absolute inset-0 bg-gradient-to-tr from-neon-green/20 to-electric-blue/20 rounded-full blur-2xl" />
             <div className="relative w-full h-full rounded-full glass neon-border overflow-hidden flex items-center justify-center group">
               <img 
-                src="https://i.pinimg.com/736x/86/1a/02/861a02659267494ea967b2e9bc64c3ea.jpg" 
+                src={profile}
                 alt="Ethan Ebo Mills" 
                 className="w-full h-full object-cover group-hover:scale-110 transition-transform duration-500"
                 referrerPolicy="no-referrer"
